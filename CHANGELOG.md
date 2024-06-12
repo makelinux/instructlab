@@ -13,6 +13,7 @@
    mmlu-branch) which are integrated with the ilab workflow to evaluate new skills and knowledge.
    Includes --gpus option for specifying number of gpus to utilize when serving models for
    evaluation (currently applicable for vLLM only).
+* `ilab model test` generic support
 
 ### Breaking Changes
 
