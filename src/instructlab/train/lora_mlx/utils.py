@@ -10,10 +10,16 @@ import logging
 import os
 
 # Third Party
+# https://huggingface.co/docs/huggingface_hub/package_reference/file_download#huggingface_hub.snapshot_download
 from huggingface_hub import snapshot_download
+# https://huggingface.co/docs/safetensors/en/api/torch#safetensors.torch.save_file
 from safetensors.torch import save_file
+# https://ml-explore.github.io/mlx/build/html/python/array.html
+# https://ml-explore.github.io/mlx/build/html/python/ops.html
 import mlx.core as mx
+# https://ml-explore.github.io/mlx/build/html/python/nn.html
 import mlx.nn as nn
+# https://huggingface.co/transformers
 import transformers
 
 # Local
